@@ -22,6 +22,13 @@
 #define LEFT            0
 #define RIGHT           1
 
-#endif
+/* Pump control commands */
+#define PUMP1_ON        'P'  // Turn pump 1 on
+#define PUMP1_OFF       'Q'  // Turn pump 1 off  
+#define PUMP2_ON        'R'  // Turn pump 2 on
+#define PUMP2_OFF       'S'  // Turn pump 2 off
+#define PUMP_SET_DURATION 'T' // Set pump duration (format: T <pump_num> <duration_ms>)
+#define PUMP_BOTH_OFF   'U'  // Turn both pumps off
+#define PUMP_STATUS     'V'  // Get pump status
 
-
+#endif  // <-- THIS WAS MISSING - MAKE SURE THIS LINE EXISTS!
