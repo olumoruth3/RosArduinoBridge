@@ -19,7 +19,7 @@
 
 /* Pump configuration - Adjust these pins based on your wiring */
 #define PUMP1_PIN 22           // Digital pin for pump 1 (pin 22 on Arduino Mega)
-#define PUMP2_PIN 24           // Digital pin for pump 2 (pin 23 on Arduino Mega)
+#define PUMP2_PIN 24           // Digital pin for pump 2 (pin 24 on Arduino Mega)
 #define PUMP_ACTIVE_HIGH false // Set to false if pumps are active LOW
 
 /* Pump control variables - using static to limit scope to this file */
